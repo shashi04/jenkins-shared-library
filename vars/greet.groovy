@@ -1,7 +1,3 @@
-package org.myorg.utils
-
-class Helper {
-    static String greet(String name) {
-        return "Hello, ${name}!"
-    }
+def call(String name) {
+    return "Hello, ${name}!"
 }
